@@ -17,14 +17,35 @@ Unix is pretty much the same, regardless of whether you're using it on Mac OSX, 
 [http://www.unix.org/what_is_unix/history_timeline.html](http://www.unix.org/what_is_unix/history_timeline.html)
 
 ### Why use the command line
-
 Let's get straight down to business, why do we need to get
 acquainted with the command line.
 
 ##### Setting up your mac
 ##### Setting up your command line Environment
+##### Most dangerous commands in the world
+##### Funny command and trivia
 
-##### World wind tour of the most popular commands.
+
+
+### World wind tour of the most popular commands.
+
+#### navigations in the terminal
+
+#### Create file and directories in the terminal
+
+#### View and  Editing files in the terminal
+
+#### View and  Editing files in the terminal
+
+#### Living in the shell
+Marvel in the power of the command line! With these two lines, we created a playground
+directory containing one hundred subdirectories each containing twenty-six empty files.
+Try that with the GUI!
+
+mkdir -p playground/dir-{00{1..9},0{10..99},100}
+touch playground/dir-{00{1..9},0{10..99},100}/file-{A..Z}
+
+#### Take your confi
 
 `touch`	-- change file access and modification times
 
