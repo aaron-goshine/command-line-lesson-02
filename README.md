@@ -51,6 +51,30 @@ touch playground/dir-{00{1..9},0{10..99},100}/file-{A..Z}
 grep -i '^[^p].ssy$' /usr/share/dict/words
 
 
+#### File roulette
+BLAMS=0
+while [[ $BLAMS -lt 1 ]] ; do
+    echo "Press any key to pull the trigger or CTRL + C to chicken out."
+        
+    read -sn 1
+    if [[ $CYLINDER -eq $BULLET ]]; then
+       echo "Bullet is in chamber $BULLET."
+       echo "Cylinder is in position $CYLINDER."
+       echo "BLAM!"
+       echo "$1's bits were eradicated from existence."
+       BLAMS=$((BLAMS+1))
+       rm -rf $1
+    else
+       echo "Click. $1 lives to experience another cycle."
+       echo "Cylinder is in position $CYLINDER."
+    fi
+
+    CYLINDER=$(((CYLINDER%6)+1))
+done
+
+echo "Thanks for playing!"
+
+
 #### Take your confi
 
 `touch`	-- change file access and modification times
