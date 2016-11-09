@@ -170,4 +170,3 @@ echo "Thanks for playing!"
 * `cal`
 * `emacs -nw --eval="(tetris)"`
 * `telnet towel.blinkenlights.nl`
-
