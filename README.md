@@ -86,7 +86,7 @@ People of different discipline use the command line in different ways.For exampl
   python,
 
   ```
-
+  ```
 ### Where to get help
 
   - `man`	-- manual page for most standard command line tools
@@ -102,6 +102,7 @@ People of different discipline use the command line in different ways.For exampl
   - corrupter:
 
 ##### Funny command and trivia
+```
   - funny way to learn more
   - games
   - movies
@@ -113,7 +114,7 @@ People of different discipline use the command line in different ways.For exampl
   - `cal`
   - `emacs -nw --eval="(tetris)"`
   - `telnet towel.blinkenlights.nl`
-
+```
 
 #### Living shell for less
   Marvel in the power of the command line! With these two lines, we created a playground
